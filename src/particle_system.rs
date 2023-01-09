@@ -12,5 +12,12 @@ pub mod particle_system {
         fn new(should_render: bool, has_gravity: bool, buffer: Vec<Particle>) {
             ParticleSystem { should_render: should_render, has_gravity: has_gravity,  buffer: buffer };
         }
+
+        fn update() {
+            for particle in buffer {
+                particle.update();
+            }
+        }
+
     }
 }

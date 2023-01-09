@@ -39,4 +39,32 @@ impl Renderer {
     fn render_loop() {
         unimplemented!("todo.")
     }
+
+    fn draw_frame() {
+        unimplemented!("todo.")
+    }
+
+    fn draw_item() {
+        unimplemented!("todo.")
+    }
+
+    fn draw_items() {
+        unimplemented!("todo.")
+    }
+
+    fn draw_player() {
+        unimplemented!("todo.")
+    }
+
+    fn draw_players() {
+        unimplemented!("todo.")
+    }
+
+    fn draw_world() {
+        unimplemented!("todo.")
+    }
+
+    fn draw_gui() {
+        unimplemented!("todo.")
+    }
 }

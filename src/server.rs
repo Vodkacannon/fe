@@ -30,5 +30,23 @@ impl Server {
 
     }
 
-    
+    fn get_packet_from_client() {
+        
+    }
+
+    fn send_packet_to_client() {
+
+    }
+
+    fn get_packet_from_server() {
+
+    }
+
+    fn send_packet_to_server() {
+
+    }
+
+    fn get_packet_from_world() {
+
+    }
 }

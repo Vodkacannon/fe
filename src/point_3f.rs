@@ -42,6 +42,12 @@ impl Point3f {
     }
 
     fn cross(&mut self, point: Point3f) {
-        unimplemented!("I forgot to implement this")
+        let x = self.x;
+        let y = self.y;
+        let z = self.z;
+
+        self.x = y * point.z - z * point.y;
+        self.y = z * point.x - x * point.z;
+        self.z = x * point.y - y * point.x;
     }
 }
