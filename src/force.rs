@@ -1,5 +1,6 @@
 use crate::point_3f::Point3f;
 
+[#repr(C)]
 pub struct Force {
     mass: f32,
     acceleration: Point3f
