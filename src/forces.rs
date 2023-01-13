@@ -4,5 +4,7 @@ pub struct Forces {
 }
 
 impl Forces {
-
+    fn sum() -> double {
+        
+    }
 }
